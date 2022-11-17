@@ -1,0 +1,81 @@
+Hart Hall -> Pi
+
+-TCP:
+	RTTs
+	8 bytes:	1.200059 ms
+	64 bytes:	1.496703 ms
+	256 bytes:	1.542519 ms
+	1024 bytes:	2.375595 ms
+
+	Throughput
+	1024 x 1024 Bytes:	79.426372	Megabits/second
+	2048 x 512 Bytes:	76.33845
+	4096 x 256 Bytes:	64.174595
+	
+-UDP:
+	RTTs
+	8 bytes:	1.126356 ms
+	64 bytes:	1.44949 ms
+	256 bytes:	1.600052 ms
+	1024 bytes:	2.428014 ms
+
+	Throughput
+	1024 x 1024 Bytes:	7.804761136966214
+	2048 x 512 Bytes:	3.88160480488262
+	4096 x 256 Bytes:	1.9617018912209785
+
+
+
+Hart Hall -> Moxie
+
+-TCP:
+	RTTs
+	8 bytes:	1.336324 ms
+	64 bytes:	1.5568 ms
+	256 bytes:	1.716181 ms
+	1024 bytes:	2.258687 ms
+
+	Throughput
+	1024 x 1024 Bytes:	82.819753
+	2048 x 512 Bytes:	89.675257
+	4096 x 256 Bytes:	86.917174
+	
+-UDP:
+	RTTs
+	8 bytes:	1.4232 ms
+	64 bytes:	1.857314 ms
+	256 bytes:	1.672718 ms
+	1024 bytes:	2.378367 ms
+
+	Throughput
+	1024 x 1024 Bytes:	7.70357886508595
+	2048 x 512 Bytes:	3.910627046877707
+	4096 x 256 Bytes:	1.952862404348137
+
+
+
+pi -> rho
+
+-TCP:
+	RTTs
+	8 bytes:	0.111122 ms
+	64 bytes:	0.124634 ms
+	256 bytes:	0.138934 ms
+	1024 bytes: 	0.177611 ms
+
+	Throughput
+	1024 x 1024 Bytes:	132.045461
+	2048 x 512 Bytes:	136.61753
+	4096 x 256 Bytes:	122.626179
+	
+-UDP:
+	RTTs
+	8 bytes:	0.127528
+	64 bytes:	0.139314
+	256 bytes:	0.138927
+	1024 bytes:	0.187281
+
+	Throughput
+	1024 x 1024 Bytes:	34.86862075691234
+	2048 x 512 Bytes:	20.930046161476053
+	4096 x 256 Bytes:	11.862609204755922
